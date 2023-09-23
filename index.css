@@ -1,0 +1,76 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box
+  }
+  h3{
+    text-align:center
+  }
+  .main{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+  }
+  .container{
+    width:80%;
+    /* height:100vh; */
+    padding:2%;
+    display:flex;
+    flex-direction:row
+  }
+  .div1{
+    width:20%
+  }
+  .div2{
+    flex:1;
+  }
+  input[type=text]{
+    width:100%;
+    padding:3%;
+    background-color:rgb(201, 199, 109);
+    margin:8px 0px 12px 0px;
+  }
+  input[type=date]{
+    width:100%;
+    padding:3%;
+    background-color:rgb(201, 199, 109);
+    margin:8px 0px 12px 0px;
+  }
+  input[name="decription"]{
+    padding:6%
+  }
+    input[type=submit]{
+      padding:3%;
+    background-color:rgba(239, 129, 3, 0.658);
+    }
+  .box2{
+    border: 1px solid black;
+    /* border-radius:10px; */
+    padding:1.5%;
+    width:150px;
+    background-color:rgb(201, 199, 109);
+  }
+  .box3{
+    border:0px;
+      border-top: 2px  solid black;
+      /* border-radius:10px; */
+      padding:1.5%;
+      width:150px;
+      background-color:rgb(201, 199, 109);
+  }
+    table,tr, td,th{
+      border: 2px solid black;
+      border-collapse: collapse;
+      width: 40%;
+    
+    }
+  .hide{
+    display: none;
+  }
+  #del{
+    padding: 1%;
+    background-color:rgb(230, 20, 20);
+    border-radius: 5px;
+  }
+  
